@@ -1,6 +1,6 @@
 {
   "name": "@plasius/gpu-model-step",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "STEP analytic geometry import/export and controlled tessellation contracts.",
   "type": "module",
   "sideEffects": false,
