@@ -1,0 +1,16 @@
+{
+  "files": [
+    "dist"
+  ],
+  "paths": [
+    "LICENSE",
+    "README.md",
+    "dist/index.cjs",
+    "dist/index.cjs.map",
+    "dist/index.d.cts",
+    "dist/index.d.ts",
+    "dist/index.js",
+    "dist/index.js.map",
+    "package.json"
+  ]
+}
