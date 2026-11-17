@@ -9,17 +9,9 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 ## [Unreleased]
 
-- **Added**
-  - (placeholder)
+### Fixed
 
-- **Changed**
-  - (placeholder)
-
-- **Fixed**
-  - (placeholder)
-
-- **Security**
-  - (placeholder)
+- Restore automatic schema-template npm publication and validate renewed trusted publishing with a sealed package inventory.
 
 ## [0.1.1] - 2026-09-13
 
@@ -28,20 +20,16 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
   - Removed the completed `0.1.0` first-publication bootstrap and added an
     exact-commit validation entry point on explicit hosted runners.
-  - (placeholder)
 
 - **Security**
   - Removed the temporary npm credential path; releases now require exact-main
     npm OIDC trusted publishing with the pinned npm 11.6.2 client.
-  - (placeholder)
 
 ## [0.1.0] - 2026-08-30
 
@@ -50,146 +38,106 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - Added the gpu.model.conversion.enabled rollout reference and package smoke test.
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
   - Pinned patched transitive npm dependencies to clear the current audit baseline.
   - Added fail-closed source and npm-package admission for the administrative contributor registry and pinned the CI/CD runtime to Node.js 24.18.0 LTS.
   - Pinned patched transitive build-tool dependencies for the current npm audit advisories.
-  - (placeholder)
 
 ## [1.2.17] - 2026-06-28
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.16] - 2026-06-22
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.15] - 2026-06-22
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.12] - 2026-06-01
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.11] - 2026-05-13
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
   - Refreshed development dependencies to the latest stable published versions.
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.10] - 2026-04-21
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.9] - 2026-04-21
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.8] - 2026-04-02
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.7] - 2026-03-27
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.6] - 2026-03-09
 
@@ -204,12 +152,10 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - Prevented server-only fields from being treated as implicitly safe for client responses when callers serialize entities through the schema contract.
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.5] - 2026-03-04
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
   - Added template-level dual-module packaging policy that mandates runtime-safe CommonJS boundaries when emitting `dist-cjs/*.js` under `type: module`.
@@ -218,21 +164,16 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - Established publish-time guardrails (`build` + `pack:check`) in template governance to prevent dual-module regressions in downstream `@plasius/*` packages.
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.2] - 2026-02-28
 
 - **Added**
-  - (placeholder)
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.1] - 2026-01-22
 
@@ -241,13 +182,10 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
 
 - **Changed**
   - Restore `main`, `module`, and `types` fields alongside the export map for broader CJS/ESM tool compatibility.
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.2.0] - 2025-12-31
 
@@ -280,7 +218,6 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - ISO 3166-1 list updated to include `PS`; ISO 4217 list updated to include `SLE` (while retaining `SLL` for legacy data).
 
 - **Security**
-  - (placeholder)
 
 ## [1.1.1] - 2025-09-24
 
@@ -297,10 +234,8 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
     - "types": "./dist/index.d.ts",
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 
 ## [1.1.0] - 2025-09-18
 
@@ -333,7 +268,6 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - validateISODateTime for dateTime now accepts string matches that might not be the same as the date.toISOString() return value but are still valid ISO Date Time Strings.
 
 - **Security**
-  - (placeholder)
 
 ## [1.0.18] - 2025-09-17
 
@@ -409,13 +343,10 @@ The format is based on **[Keep a Changelog](https://keepachangelog.com/en/1.1.0/
   - Initial release.
 
 - **Changed**
-  - (placeholder)
 
 - **Fixed**
-  - (placeholder)
 
 - **Security**
-  - (placeholder)
 [1.2.2]: https://github.com/Plasius-LTD/schema/releases/tag/v1.2.2
 [1.2.5]: https://github.com/Plasius-LTD/schema/releases/tag/v1.2.5
 [1.2.6]: https://github.com/Plasius-LTD/schema/releases/tag/v1.2.6
